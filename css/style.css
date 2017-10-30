@@ -1,0 +1,145 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+header {
+  height: 50px;
+  width: 850px;
+  background: url(../img/wood.jpg);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: white;
+  font-family: 'Atomic Age', cursive;
+
+}
+
+
+.cu {
+  margin-right: 50px;
+}
+
+.span1 {
+  padding: 85px;
+}
+
+.span2 {
+  padding: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+
+
+.image {
+  box-sizing: border-box;
+  height: 450px;
+  background: url(../img/main.jpg);
+  background-size: cover;
+  width:850px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 3px solid #46404A;
+  border-bottom: 3px solid #46404A;
+}
+
+/*.frame {
+  height:70px;
+  width:375px;
+  background: teal;
+  border-radius: 15px;
+  border: 3px solid #46404A;
+
+}
+*/
+.name2 {
+  font-size: 60px;
+  font-weight: 500;
+  color: white;
+  margin-left: 25px;
+  font-family: 'Allerta Stencil', sans-serif;
+  text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+
+
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  background: url(../img/wood.jpg);
+  color: white;
+  border-bottom: 1px solid #46404A;
+  font-family: 'Atomic Age', cursive;
+}
+
+.lower {
+  width: 850px;
+  height: auto;
+  background: #ABA58F;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+article {
+  width: 300px;
+  font-size: 14pt;
+  font-weight:bold;
+
+  font-family: 'Atomic Age', cursive;
+
+}
+.bh {
+  margin-bottom: 50px;
+}
+
+.hours {
+  text-decoration: underline;
+}
+
+.about{
+  font-style: italic;
+
+}
+
+.verticalpics {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.pics {
+  height: 200px;
+  width: 300px;
+  border: 2px solid #53331E;
+  margin-top: 30px;
+}
+
+footer {
+  height: 50px;
+  width: 850px;
+  background: url(../img/wood.jpg);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: white;
+  font-family: 'Atomic Age', cursive;
+  border-top: 1px solid #46404A;
+}
+
+.ftext {
+  font-size: 12px;
+  margin-right: 30px;
+}
