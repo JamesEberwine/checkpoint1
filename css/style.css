@@ -40,7 +40,7 @@ a {
 
 .image {
   box-sizing: border-box;
-  height: 450px;
+  height: 410px;
   background: url(../img/main.jpg);
   background-size: cover;
   width:850px;
