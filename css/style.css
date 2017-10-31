@@ -3,19 +3,23 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
 
 header {
   height: 50px;
   width: 850px;
   background: url(../img/wood.jpg);
+  /*used the img url as the background in css because it has text pver it */
   display: flex;
   justify-content: flex-end;
   align-items: center;
   color: white;
   font-family: 'Atomic Age', cursive;
-
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  border-bottom: 3px solid #46404A; /*grey*/
+/* Postion, top and z-index properties are to hold the top nav bar at the top of the page*/
 }
 
 
@@ -35,7 +39,9 @@ a {
   text-decoration: none;
   color: white;
 }
-
+ a:hover {
+   color: #4CAF50; /*This colors the link text green when hovering*/
+ }
 
 
 .image {
@@ -47,8 +53,8 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  border-top: 3px solid #46404A;
-  border-bottom: 3px solid #46404A;
+  border-top: 3px solid #46404A; /*grey*/
+  border-bottom: 3px solid #46404A; /*grey*/
 }
 
 /*.frame {
@@ -67,8 +73,7 @@ a {
   margin-left: 25px;
   font-family: 'Allerta Stencil', sans-serif;
   text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
-
-
+  /*These text shadow values give the text an outer glow*/
 }
 
 .navbar {
@@ -78,25 +83,23 @@ a {
   height: 50px;
   background: url(../img/wood.jpg);
   color: white;
-  border-bottom: 1px solid #46404A;
+  border-bottom: 1px solid #46404A; /*grey*/
   font-family: 'Atomic Age', cursive;
 }
 
 .lower {
   width: 850px;
   height: auto;
-  background: #ABA58F;
+  background: #ABA58F; /*tan*/
   display: flex;
   justify-content: space-around;
   align-items: center;
-
 }
 
 article {
   width: 300px;
   font-size: 14pt;
   font-weight:bold;
-
   font-family: 'Atomic Age', cursive;
 
 }
@@ -110,7 +113,6 @@ article {
 
 .about{
   font-style: italic;
-
 }
 
 .verticalpics {
@@ -118,12 +120,13 @@ article {
   flex-direction: column;
   justify-content: space-between;
   margin-bottom: 30px;
+/*This inner box is to stack the photos vertically within the horizonally organized "lower"*/
 }
 
 .pics {
-  height: 200px;
+  height: 175px;
   width: 300px;
-  border: 2px solid #53331E;
+  border: 2px solid #53331E; /*brown*/
   margin-top: 30px;
 }
 
@@ -136,7 +139,7 @@ footer {
   align-items: center;
   color: white;
   font-family: 'Atomic Age', cursive;
-  border-top: 1px solid #46404A;
+  border-top: 1px solid #46404A; /*grey*/
 }
 
 .ftext {
